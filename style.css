@@ -11,9 +11,12 @@ body {
     width: 100%;
     justify-content: center;
     align-items: center;
+    background-color: #1F2937;
+    padding: 0px;
+    margin: 0px;
 }
 
-.header {
+.header, .hero {
     display: flex;
     justify-content: space-between;
     background-color: #1F2937;
@@ -43,7 +46,55 @@ body {
     display: flex;
     list-style-type: none;
     gap: 25px;
+}
 
+.hero {
+    justify-content: center;
+    width: 900px;
+}
+
+
+.hero-header {
+    font-size: 48px;
+    font-weight: 1000;
+    color: #F9FAF8;
+    line-height: 38px;
+    margin-top: 10px; 
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    align-items: flex-start;
+    margin-right: 10px;
+}
+
+.hero-content {
+    margin-top: -35px;
+    ma
+}
+
+.hero-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 3;
+    background-color: darkgrey;
+    text-align: center;
+    min-width: 450px;
+     
+}
+
+.button-signup {
+    background-color: #3882F6;
+    border-radius: 8px;
+    border: none;
+    width: 120px;
+    height: 40px;
+    color: #F9FAF8;
+    font-weight: 800;
 }
 
 .card img {
