@@ -175,9 +175,10 @@ body {
 }
 
 .cta-container {
+    width: 750px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     margin-top: 100px;   
     margin-bottom: 100px;
@@ -194,9 +195,12 @@ body {
     color:#FFFFFF;
 }
 
+
+
 .cta-container-right {
     min-width: 150px;
-    text-align: center;
+    text-align: right;
+    padding-left: 80px;
 }
 
 .cta-header {
